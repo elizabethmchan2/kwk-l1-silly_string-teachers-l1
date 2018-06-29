@@ -37,12 +37,12 @@ puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
-proper_sentence.Capitalize = "i really like programming." # Put a . after the string to capitalize it properly.
+proper_sentence = "i really like programming.".capitalize # Put a . after the string to capitalize it properly.
 
 puts proper_sentence
 
 # Challenge 7: String Switcheroo
-sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/[A]/, 'O').gsub(/[a]/, 'o')
+sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/[A]/, 'O').gsub(/[a]/, 'o');
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
